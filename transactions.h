@@ -5,8 +5,10 @@
 #include <iostream>
 #include <string>
 using namespace std;
+//creating transaction class
 class Transactions{
 private:
+    //private variables
     int date;
     char type;
     double amount;
@@ -15,9 +17,9 @@ private:
 
     
 public:
-    
+    //constructor
     Transactions(char type, double amount, double balance, string description);
-    
+    //get and sets
     int getdate(){
         return date;
     }
